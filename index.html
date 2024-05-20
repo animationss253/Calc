@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+//Made by Me ( Sushant )
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <audio autoplay loop>
+    <source src="bs.mp3" type="audio/mpeg">
+  </audio>
+
+  <br> <br> <br> <br> <br> <br> <br>
+
+  <div class="screen">
+    <input id="ans" readonly>
+    <br><br><br><br><br>
+    <br>
+    <button wonclick="document.querySelector('#ans').value +='1'">1</button>
+    <button onclick="document.querySelector('#ans').value +='2'">2</button>
+    <button onclick="document.querySelector('#ans').value +='3'">3</button>
+    <button onclick="document.querySelector('#ans').value +='*'" class="ope">x</button>
+    <br>
+    <button onclick="document.querySelector('#ans').value +='4'">4</button>
+    <button onclick="document.querySelector('#ans').value +='5'">5</button>
+    <button onclick="document.querySelector('#ans').value +='6'">6</button>
+    <button onclick="document.querySelector('#ans').value  +='/'" class="ope">/</button> <br>
+    <button onclick="document.querySelector('#ans').value +='7'">7</button>
+    <button onclick="document.querySelector('#ans').value +='8'">8</button>
+    <button onclick="document.querySelector('#ans').value +='9'">9</button>
+    <button onclick="document.querySelector('#ans').value +='+'" class="ope">+</button>
+    <br>
+    <button onclick="document.querySelector('#ans').value +='0'">0</button>
+    <button onclick="document.querySelector('#ans').value +='-'" class="ope">-</button>
+    <button onclick="document.querySelector('#ans').value =''" class="ope">C</button>
+
+    <button class="ope" id="dis">=</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
